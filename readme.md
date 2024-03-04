@@ -38,7 +38,7 @@ Note: Installation have been proved on Windows, still working to adapt it to Uni
 - [2. Run frontend server](#2-run-front-end-server)
 - [3. Open Browser](#3-open-browser)
 - [4. Build Frontend Project:](#4-build-frontend-project)
-- [5. Frontend Documentation](#5-frontend-documentation) -> <a href="./docs/theory">Click here to go directly</a>
+- [5. Frontend Documentation](#5-frontend-documentation) -> <a href="./docs/frontend">Click here to go directly</a>
 
 
 # 0. Testing Demo without API
