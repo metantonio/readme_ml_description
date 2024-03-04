@@ -3,7 +3,7 @@
 - [Backend Index](#backend-index)
 - [Fronted Index](#frontend-index)
 - [Localtunnel](#localtunnel)
-- [Theory of RAG's](#theory-of-rags) <a href="./docs/theory">Click here to go directly</a>
+- [Theory of RAG's](#theory-of-rags) -> <a href="./docs/theory">Click here to go directly</a>
 
 Note: Installation have been proved on Windows, still working to adapt it to Unix based systems
 
@@ -27,7 +27,7 @@ Note: Installation have been proved on Windows, still working to adapt it to Uni
  - - [Pydantic.v1 not found](#pydanticv1-not-found)
  - - [WinError 206](#winerror-206)
  - - [NoModuleFoundError](#nomodulefounderror)
-- [6. Endpoints documentation](#6-endpoints-documentation) <a href="./docs/">Click here to go directly</a>
+- [6. Endpoints documentation](#6-endpoints-documentation) -> <a href="./docs/">Click here to go directly</a>
 
 # Frontend Index
 
@@ -38,7 +38,7 @@ Note: Installation have been proved on Windows, still working to adapt it to Uni
 - [2. Run frontend server](#2-run-front-end-server)
 - [3. Open Browser](#3-open-browser)
 - [4. Build Frontend Project:](#4-build-frontend-project)
-- [5. Frontend Documentation](#5-frontend-documentation) <a href="./docs/theory">Click here to go directly</a>
+- [5. Frontend Documentation](#5-frontend-documentation) -> <a href="./docs/theory">Click here to go directly</a>
 
 
 # 0. Testing Demo without API
