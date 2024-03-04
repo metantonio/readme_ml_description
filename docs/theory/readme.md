@@ -59,6 +59,14 @@ Suppose a user submits the query “How does photosynthesis work?”. The system
 
 RAG, short for Retrieval-Augmented Generation, is a system that combines the power of search functions with the generation capabilities of language models. Rather than just depending on the existing knowledge of a pre-trained LLM, RAG actively pulls pertinent sections from a designated dataset to formulate answers. At the highest level, RAG is a combination of a pretrained LLM with an external (searchable) knowledge base. At inference time, we can search for relevant textual context within this knowledge base and add it to the LLM’s prompt. Then, the LLM can use its in context learning abilities to leverage this added context and produce a more factual/grounded output.
 
+There are two key models within RAG framework:
+
+- RAG-Sequence Model: This model utilizes the same retrieved document to generate the complete sequence. It treats the retrieved document as a single latent variable that is marginalized to get the sequence-to-sequence probability via a top-K approximation. In this approach, the top K documents are retrieved using the retriever, and the generator computes the output sequence probability for each document. These probabilities are then combined through marginalization.
+
+- RAG-Token Model: In this model, a different latent document can be drawn for each target token, allowing the generator to choose content from several documents when producing an answer. Similar to the RAG-Sequence model, it retrieves the top K documents and then generates a distribution for the next output token for each document. This process is repeated for each output token, with marginalization occurring accordingly.
+
+ Note: Where are using RAG-Token model for this project
+
 ### Simple implementation
 
 We can create a minimal RAG pipeline using a pretrained embedding model and LLM by:
