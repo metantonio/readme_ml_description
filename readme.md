@@ -3,7 +3,7 @@
 - [Backend Index](#backend-index)
 - [Fronted Index](#frontend-index)
 - [Localtunnel](#localtunnel)
-- [Theory of RAG's](#theory-of-rags)
+- [Theory of RAG's](#theory-of-rags) <a href="./docs/theory">Click here to go directly</a>
 
 Note: Installation have been proved on Windows, still working to adapt it to Unix based systems
 
