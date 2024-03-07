@@ -394,6 +394,18 @@ poetry run pip install mysql-connector-python==8.2.0
 poetry run pip install SQLAlchemy==1.4.45
 ```
 
+## Error trying to install pyenv
+
+pyenv.ps1 is not digitally signed then a Security warning error after installing.
+
+First, open `Power Shell` in administrator mode, and execute:
+
+```bash
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
+
+Press `A`, then try to install pyenv.
+
 # 6. Endpoints documentation
 
 For this, please go to the folder <a href="./docs/">docs</a>
